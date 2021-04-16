@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Sakkfigurák</title>
+	<link rel="icon" href="favicon.png" type="image/png" sizes="16x16">
+	<link rel="stylesheet" href="style.css">
+	<style>
+
+		body {
+			background-image:url('hatter.png');
+			background-repeat:no-repeat;
+			background-size: cover;
+			background-attachment:fixed;
+			margin:0px;
+		}
+
+		div.kiraly{
+			background-color:#D2691E;
+			color:white;
+			width:720px;
+			height:550px;
+			margin:15px auto;
+		}
+		
+		div.kiralyno{
+			background-color:#D2691E;
+			color:white;
+			width:720px;
+			height:570px;
+			margin:15px auto;
+		}
+
+		div.bastya{
+			background-color:#D2691E;
+			color:white;
+			width:720px;
+			height:420px;
+			margin:15px auto;
+		}
+
+		div.futo{
+			background-color:#D2691E;
+			color:white;
+			width:720px;
+			height:530px;
+			margin:15px auto;
+		}
+		
+		div.huszar{
+			background-color:#D2691E;
+			color:white;
+			width:720px;
+			height:615px;
+			margin:15px auto;
+		}
+		
+		div.gyalog{
+			background-color:#D2691E;
+			color:white;
+			width:720px;
+			height:550px;
+			margin:15px auto;
+		}
+		
+		div#kiraly{
+			width:720px;
+			height:190px;
+			background-image:url('kiraly.png');
+			background-repeat: repeat;
+		}
+
+		div#vezer{
+			width:720px;
+			height:191px;
+			background-image:url('kiralyno.png');
+			background-repeat: repeat;
+		}
+
+		div#bastya{
+			width:720px;
+			height:191px;
+			background-image:url('bastya.png');
+			background-repeat: repeat;
+		}
+
+		div#futo{
+			width:720px;
+			height:191px;
+			background-image:url('futo.png');
+			background-repeat: repeat;
+		}
+		
+		div#huszar{
+			width:720px;
+			height:191px;
+			background-image:url('huszar.png');
+			background-repeat: repeat;
+		}
+
+		div#gyalog{
+			width:720px;
+			height:191px;
+			background-image:url('gyalog.png');
+			background-repeat: repeat;
+		}	
+
+		h1, p{
+			padding:0px 20px;
+		}
+		
+		div#lablec {
+		clear: both;
+		background-color:#D2691E;
+		color:white;
+		width:720px;
+		height:505px;
+		margin:15px auto;
+		}
+		
+		p.p{
+			padding-top:10px;
+		}
+
+	</style>
+</head>
+<body>
+	<nav>
+		<ul>
+			<li><a href="index.html">Kezdőlap</a></li>
+			<li><a href="figurak.html">Sakkfigurák</a></li>
+			<li><a href="vilagbajnokok.html">Világbajnokok</a></li>
+			<li><a href="urlap.html">Regisztrálás</a></li>
+			<li><a href="https://zoldsakk.hu/game.php?try.html">Kipróbálom a sakkot!</a></li>
+		</ul>
+	</nav>
+	
+	<div class="kiraly">
+		<div id="kiraly">
+		</div>
+		<h1>A király</h1>
+		<p>
+			A <b>király</b> egyike a sakkban használt hat <a href="https://hu.wikipedia.org/wiki/Sakk#A_figur%C3%A1k">figurának</a>. A legfontosabb figura, ugyanis a király elvesztése a játék elvesztését is jelenti.
+		</p>
+		<p>
+			Bármely irányban (vízszintesen, függőlegesen, átlósan) léphet, de csak egy mezőt, ha azon nem áll saját figura, vagy a lépéssel nem lép sakkba. Ha azon ellenséges figura áll, azt leütheti, ha az nincs védve, azaz ha az ütéssel nem lép sakkba. Az egész játék az ellenfél királyának bemattolására irányul: azaz arra, hogy olyan módon adjunk sakkot az ellenfél királyának, hogy azt semmilyen módon nem tudja elhárítani.
+		</p>
+		<p>
+			A király a játék elején általában passzív és védelemre szorul, a végjátékban azonban többnyire aktivizálódik és erős támadóbábbá válik. Mozgását korlátozza, hogy sakkba nem léphet, azaz nem állhat olyan mezőre, amelyen ki lehetne ütni. Azért csak „lehetne”, mert a szabályok szerint a király nem üthető. A két király a játék során nem állhat szomszédos mezőkön (ebben az esetben értelmezhetetlen lenne, hogy melyik van sakkban), az utoljára lépett király szabálytalanul lépett, mert nem léphetett volna sakkba, a másik király mellé. Egy megfelelően elhelyezett király a végjátékban hozzájárulhat a mattadáshoz, valamint egy gyalog átváltozásához is. Kivételes lépés: <a href="https://hu.wikipedia.org/wiki/S%C3%A1ncol%C3%A1s">sáncolás</a>
+		</p>
+	</div>
+	
+	<div class="kiralyno">
+		<div id="vezer">
+		</div>
+		<h1>A vezér</h1>
+		<p>
+			A <b>vezér</b>, köznapi nevén királynő egyike a sakkban használt hat figurának. A legerősebb figura, értéke megközelítőleg 9 darab gyalognak vagy 3 darab könnyűtisztnek (futó és huszár) felel meg.
+		</p>
+		<p>
+			A vezér a sakktáblán léphet úgy, mint egy <a href="https://hu.wikipedia.org/wiki/B%C3%A1stya_(sakk)">bástya</a>, vagy úgy, mint egy <a href="https://hu.wikipedia.org/wiki/Fut%C3%B3_(sakk)">futó</a>, vagyis egyenes vonalban vagy átlósan minden irányban, amíg egy figurába nem ütközik (ha ez ellenséges figura, kiütheti, ha saját báb, meg kell állnia egy mezővel előtte).
+		</p>
+		<p>
+			A játék kezdetekor mindkét játékos egy-egy vezérrel rendelkezik, amelyek a király mellett, vele szimmetrikusan helyezkednek el. A vezér a játék kezdetén mindig a vele megegyező színű mezőn van: a világos vezér a d1-es mezőn, a sötét a d8-as mezőn. Mivel a vezér a legerősebb figura, ezért <a href="https://hu.wikipedia.org/wiki/%C3%81talakul%C3%A1s_(sakk)">gyalogátváltozáskor</a> a legtöbbször erre cserélik a gyalogot. Elméletileg akár az összes gyalog vezérré változhat, azaz előfordulhat az a valószerűtlen eset, hogy egy színből akár kilenc vezér lehet egyidejűleg a sakktáblán.
+		</p>
+		<p>
+			A <i>satrandzsban</i>, a sakkjáték elődjében a vezér csak egy mezőt léphetett átlósan. Mai lépésmódját a 15. század óta használják.
+		</p>
+	</div>
+	
+	<div class="bastya">
+		<div id="bastya">
+		</div>
+		<h1>A bástya</h1>
+		<p>
+			A <b>bástya</b> régiesen torony egyike a sakkban használt hat figurának. A legerősebb figura a vezér (vagy hétköznapi nyelven királynő) után. A vezér és a bástya a sakkban a <i>nehéztiszt</i>, a futó és a huszár <i>könnyűtiszt</i>.
+		</p>
+		<p>
+			A bástya egyenes vonalban léphet a sakktáblán minden irányban, kivéve átlósan, amíg akadályba nem ütközik. A játék kezdetekor mindkét játékos két bástyával rendelkezik, amelyek a sakktábla sarkain helyezkednek el és nem lehet velük kezdőlépést tenni, mivel útjukat minden irányban más figurák vagy a sakktábla széle zárja el.
+		</p>
+	</div>
+
+	<div class="futo">
+		<div id="futo">
+		</div>
+		<h1>A futó</h1>
+		<p>
+			A <b>futó</b> (ritkábban <b>futár</b>) egyike a sakkban használt hat figurának, a huszárral együtt könnyűtiszt. Ez utóbbi megnevezés a bástyától és a vezértől (a nehéztisztektől) különbözteti meg.
+		</p>
+		<p>
+			A sakk kezdőállásában mindkét játékosnak két futója van, amelyek közül az egyik csak a világos, a másik csak a sötét mezőkön mozog. Amíg a táblán van, a futó az egész játszma során – eltérően minden más figurától – ugyanolyan színű mezőkön mozog, mint amilyen színűn a kezdőállásban állt. Ennek megfelelően nevezik világos színeken mozgó futónak vagy sötét színeken mozgó futónak is. A táblán kizárólag átlós irányban mozoghat, amíg akadályba nem ütközik. A futó nem ugorhat át másik bábut. Ha lépése során akadályba ütközik, és az akadály egy saját báb, akkor az előtte levő mezőn kell megállnia. Ha az akadály az ellenfél bábja, akkor azt leütheti, és a helyére léphet.
+		</p>
+		<p>
+			A sztenderd <a href="https://hu.wikipedia.org/wiki/Staunton_sakk-k%C3%A9szlet">Staunton sakk-készletben</a> a futófigura püspöksüveget visel. (A figura angol neve <i>bishop</i>, azaz <q>püspök</q>.) Más sakk-készletekben gyakran ellentétes színű fejjel ábrázolják (tehát a sötét futók feje világos, a világos futóké sötét).
+		</p>
+	</div>
+	
+	<div class="huszar">
+		<div id="huszar">
+		</div>
+		<h1>A huszár</h1>
+		<p>
+		A <b>huszár</b> egyike a sakk-készlet hat figurájának, a futóval együtt az egyik <i>könnyűtiszt</i>. Ez utóbbi megnevezés a bástyától és a vezértől (a <i>nehéztisztektől</i>) különbözteti meg.
+		</p>
+		<p>
+			A sakk-készletben a huszár figura értelemszerűen lóalakot visel. Más magyar elnevezései: <b>csikó</b>, <b>ló</b>. A figura angol neve <i>knight</i>, azaz <q>lovag</q>.
+		</p>
+		<p>
+			A sakk kezdőállásában mindkét játékosnak két huszárja van, melyek a bástyáktól egy mezőre helyezkednek el a király irányába. A huszár mozgásmódja két okból is eltér a többi figuráétól. Egyfelől mozgása nem irányokban határozható meg, hanem alakzatként, másfelől a szabad mezőkre történő lépését nem korlátozzák az egyes lépései során köztesnek tekinthető négy mezőn elhelyezkedő esetleges figurák sem. A huszár lépése L-alakzatként határozható meg; lépése során a körülötte lévő mezők egyikétől számítva további két mezőt léphet keresztül vagy köznyelvi formában ugorhat át. Lépésének sajátossága miatt a huszár az egyetlen figura a gyalogokon kívül, amellyel már az 1. lépésben léphetünk.
+		</p>
+		<p>
+			A huszár lépéslehetőségeit egyedül a lépni kívánt mezőn elhelyezkedő saját figurák korlátozzák. Sarokmezőről a huszár üres táblán mindössze két legitim lépése adódik, míg a c6 és f3 mezők között meghatározható 16 mezőről nyolc. Mozgása sajátosságából adódóan a huszárlépés kiindulási és érkezési mezője mindig ellentétes színű. Ebből következik, hogy az indulási mezővel azonos színű mezőre mindig csak páros, ellenkező színű mezőre csakis páratlan számú lépésben juthat el.
+		</p>
+	</div>
+	
+	<div class="gyalog">
+		<div id="gyalog">
+		</div>
+		<h1>A gyalog</h1>
+		<p>
+		A <b>gyalog</b> a sakk-készlet leggyengébb és egyben legszámosabb bábuja, amely éppen ezért meghatározza a sakkjátszma jellegét és az állás szerkezetét. A játékban a tisztektől eltérően a gyalog – a katonai analógia szerint – a gyalogságot képviseli. Mindkét játékos 8 gyaloggal kezdi a játszmát, amelyek a játékos felől nézve a 2. soron állnak. A <a href="https://hu.wikipedia.org/wiki/A_sakkj%C3%A1tszm%C3%A1k_lejegyz%C3%A9se">sakklejegyzés</a> szerint a világos gyalogok az a2, b2, ..., h2 mezőkön, a sötét gyalogok az a7, b7, ..., h7 mezőkön helyezkednek el a játszma elején.
+		</p>
+		<p>
+			A gyalogokat megkülönböztethetjük azon vonal szerint, amelyen állnak. Így beszélhetünk „világos c-gyalog”-járól vagy „sötét h-gyalog”-járól. Ritkábban a gyalogokat a nyitóállásban mögöttük levő tisztek szerint különböztetjük meg, tehát a „c-gyalog” helyett „vezéroldali futógyalog”-ot is mondhatunk. A megnyitások két nagy kategóriáját is szokták régebben „királygyalog megnyitás”-nak és „vezérgyalog megnyitás”-nak nevezni.
+		</p>
+		<p>
+			A közfelfogás szerint nem tartozik a figurák közé, bár a hivatalos sakkszabályokban nincs ilyen megkülönböztetés. A sakk-készletben a gyalog a legkisebb méretű, alapesetben más megkülönböztető jellegzetessége nincs. Más magyar elnevezése: <b>paraszt</b> vagy <b>pór</b>.
+		</p>
+	</div>
+	<div id="lablec">
+		<p class="p">Források:<br><br>
+		<a href="http://abouthungary.hu/chess/">http://abouthungary.hu/chess/</a><br>
+		<a href="https://freepngimg.com/png/93368-queen-recreation-piece-line-chess-free-photo-png/icon">https://freepngimg.com/png/93368-queen-recreation-piece-line-chess-free-photo-png/icon</a><br>
+		<a href="https://hu.pinterest.com/pin/475692779371618099/">https://hu.pinterest.com/pin/475692779371618099/</a><br>
+		<a href="https://hu.wikipedia.org/wiki/Kir%C3%A1ly_(sakk)#/media/F%C3%A1jl:Chess_piece_-_White_king.jpg">https://hu.wikipedia.org/wiki/Kir%C3%A1ly_(sakk)#/media/F%C3%A1jl:Chess_piece_-_White_king.jpg</a><br>
+		<a href="https://hu.wikipedia.org/wiki/Gyalog_(sakk)">https://hu.wikipedia.org/wiki/Gyalog_(sakk)</a><br>
+		<a href="https://hu.wikipedia.org/wiki/Husz%C3%A1r_(sakk)#/media/F%C3%A1jl:Chess_piece_-_White_knight.JPG">https://hu.wikipedia.org/wiki/Husz%C3%A1r_(sakk)#/media/F%C3%A1jl:Chess_piece_-_White_knight.JPG</a><br>
+		<a href="https://hu.wikipedia.org/wiki/Fut%C3%B3_(sakk)#/media/F%C3%A1jl:Chess_piece_-_White_bishop.JPG">https://hu.wikipedia.org/wiki/Fut%C3%B3_(sakk)#/media/F%C3%A1jl:Chess_piece_-_White_bishop.JPG</a><br>
+		<a href="https://hu.wikipedia.org/wiki/B%C3%A1stya_(sakk)#/media/F%C3%A1jl:Chess_piece_-_White_rook.JPG">https://hu.wikipedia.org/wiki/B%C3%A1stya_(sakk)#/media/F%C3%A1jl:Chess_piece_-_White_rook.JPG</a><br>
+		<a href="https://hu.wikipedia.org/wiki/Vez%C3%A9r_(sakk)#/media/F%C3%A1jl:Chess_piece_-_White_queen.jpg">https://hu.wikipedia.org/wiki/Vez%C3%A9r_(sakk)#/media/F%C3%A1jl:Chess_piece_-_White_queen.jpg</a><br>
+		<a href="https://hu.wikipedia.org/wiki/Gyalog_(sakk)">https://hu.wikipedia.org/wiki/Gyalog_(sakk)</a><br>
+		<a href="https://hu.wikipedia.org/wiki/Husz%C3%A1r_(sakk)">https://hu.wikipedia.org/wiki/Husz%C3%A1r_(sakk)</a><br>
+		<a href="https://hu.wikipedia.org/wiki/Fut%C3%B3_(sakk)">https://hu.wikipedia.org/wiki/Fut%C3%B3_(sakk)</a><br>
+		<a href="https://hu.wikipedia.org/wiki/B%C3%A1stya_(sakk)">https://hu.wikipedia.org/wiki/B%C3%A1stya_(sakk)</a><br>
+		<a href="https://hu.wikipedia.org/wiki/Vez%C3%A9r_(sakk)">https://hu.wikipedia.org/wiki/Vez%C3%A9r_(sakk)</a><br>
+		<a href="https://hu.wikipedia.org/wiki/Kir%C3%A1ly_(sakk)">https://hu.wikipedia.org/wiki/Kir%C3%A1ly_(sakk)</a><br>
+		</p>
+		<p class="p">
+			Készítette: Árpás Kevin
+		</p>
+		<p class="p">
+			Elérhetőségem: <a href="mailto:arpaskevin11@gmail.hu">arpaskevin11@gmail.com</a>
+		</p>
+	</div>
+		
+</body>
+</html>
