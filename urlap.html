@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Űrlap</title>
+	<link rel="icon" href="favicon.png" type="image/png" sizes="16x16">
+	<link rel="stylesheet" href="style.css">
+	<style>
+		*{
+	margin:0;
+	padding:0;
+		}
+
+		body{
+			background-image:url('urlaphatter.png');
+			background-repeat:no-repeat;
+			background-size:cover;
+			background-attachment:fixed;
+		}
+
+		div.main{
+			width:400px;
+			margin:100px auto 0px auto;
+		}
+
+		h2{
+			text-align:center;
+			padding:20px;
+			font-family:sans-serif;
+		}
+
+		div.register{
+			background-color:rgba(0,0,0,0.5);
+			width:100%;
+			font-size:18px;
+			border-radius:10px;
+			border: 1px solid rgba(255,255,255,0,3);
+			box-shadow:2px 2px 15px rgba(0,0,0,0.3);
+			color:#fff;
+		}
+
+		form#register{
+			margin:40px;
+		}
+
+		label{
+			font-family:sans-serif;
+			font-size:18px;
+			font-style:italic;
+		}
+
+		input#name{
+			width:300px;
+			border:1px solid #ddd;
+			border-radius:3px;
+			outline:0;
+			padding:7px;
+			background-color:#fff;
+			box-shadow:inset 1px 1px 5px rgba(0,0,0,0.3);
+		}
+
+		input#submit{
+			width:200px;
+			padding:7px;
+			font-size:16px;
+			font-family:sans-serif;
+			font-weight:600;
+			border-radius:3px;
+			background-color:rgba(0,0,0,1);
+			color:#fff;
+			cursor:pointer;
+			border:1px solid rgba(255,255,255,0.3);
+			box-shadow:1px 1px 5px rgba(0,0,0,0.3);
+			margin-bottom:20px;
+		}
+
+		label, span, h2{
+			text-shadow: 1px 1px 5px rgba(0,0,0,0.3);
+		}
+		
+		div.visszanyil {
+			position:fixed;
+			bottom:20px;
+			font-size:20px;
+		}
+		
+		div.visszanyil ol a {
+			color:#8B0000;
+		}
+		
+		div.visszanyil ol a:hover {
+			color:yellow;
+		}
+		
+		div.forrasok {
+			position-fixed;
+			text-align:center;
+			font-size:20px;
+			color:yellow;
+		}
+		
+		div.forrasok p a {
+			color:yellow;
+		}
+		
+		div.forrasok p.p {
+			color:white;
+		}
+		
+		div.forrasok p.p a {
+			color:white;
+		}
+
+	</style>
+</head>
+<body>
+<div class="main">
+	<div class="register">
+		<h2>Itt regisztráljon</h2>
+		<form id="register" method="post">
+		<label>Keresztnév: </label>
+		<br>
+		<input type="text" name="keresztnev" id "name" placeholder="Írja be a keresztnevét!">
+		<br><br>
+		<label>Vezetéknév: </label>
+		<br>
+		<input type="text" name="vezeteknev" id "name" placeholder="Írja be a vezetéknevét!">
+		<br><br>
+		<label>Életkor: </label>
+		<br>
+		<input type="number" name="eletkor" id="name" placeholder="Írja be az életkorát!">
+		<br><br>
+		<label>Email: </label>
+		<br>
+		<input type="email" name="email" id="name" placeholder="Írja be az e-mail címét!">
+		<br><br>
+		<label>Nem: </label>
+		<br>
+		&nbsp;&nbsp;&nbsp;
+		<input type="radio" name="nem" id="ferfi">
+		&nbsp;
+		<span id="ferfi">Férfi</span>
+		&nbsp;&nbsp;&nbsp;&nbsp;
+		<input type="radio" name="nem" id="no">
+		&nbsp;
+		<span id="no">Nő</span>
+		<br><br>
+		<label>Ismert nyelvek: </label>
+		<br>
+		&nbsp;&nbsp;&nbsp;
+		<input type="checkbox" name="nyelv" id="magyar">
+		&nbsp;
+		<span id="magyar">Magyar</span>
+		&nbsp;&nbsp;&nbsp;
+		<input type="checkbox" name="nyelv" id="angol">
+		&nbsp;
+		<span id="angol">Angol</span>
+		&nbsp;&nbsp;&nbsp;
+		<input type="checkbox" name="nyelv" id="nemet">
+		&nbsp;
+		<span id="nemet">Német</span>
+		<br><br>
+		<input type="submit" value="Beküldés" name="submit" id="submit"> 
+		</form>
+	</div>
+</div>
+<div class="visszanyil">
+	<ol>
+		<li><a href="index.html"><img src="bal_nyil.gif"></a></li>
+		<li><a href="index.html">A nyílra kattintva vissza lehet jutni a főoldalra!</a></li>
+	</ol>
+</div>
+<div class="forrasok">
+	<p>
+		Források:<br>
+		<a href="https://unsplash.com/photos/bUM4weg0RSI">https://unsplash.com/photos/bUM4weg0RSI</a><br>
+		<a href="https://www.youtube.com/watch?v=UEZ60e4MsgA">https://www.youtube.com/watch?v=UEZ60e4MsgA</a><br><a href="https://freepngimg.com/png/93368-queen-recreation-piece-line-chess-free-photo-png/icon">https://freepngimg.com/png/93368-queen-recreation-piece-line-chess-free-photo-png/icon</a>
+	</p>
+	<p class="p">
+		Készítette: Árpás Kevin
+	</p>
+	<p class="p">
+			Elérhetőségem: <a href="mailto:arpaskevin11@gmail.hu">arpaskevin11@gmail.com</a>
+	</p>
+</div>
+</body>
+</html>
